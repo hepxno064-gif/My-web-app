@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#08090d">
+    <meta name="description" content="Welcome to Zyham's developer portfolio. Explore my journey in backend development, Python, Django, APIs, databases and web technologies.">
+
+    <title>ZYHAM | Backend Developer & Software Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- PAGE LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">ZY<span>H</span>AM</div>
+        <div class="loader-track">
+            <div class="loader-progress"></div>
+        </div>
+        <p>INITIALIZING EXPERIENCE...</p>
+    </div>
+
+    <!-- BACKGROUND EFFECTS -->
+    <div class="background-overlay"></div>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="noise"></div>
+
+    <!-- NAVIGATION -->
+    <header class="header" id="header">
+
+        <a href="#home" class="brand" aria-label="Zyham home">
+            ZY<span>H</span>AM<span class="brand-dot">.</span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#journey" class="nav-link">Journey</a>
+
+            <a href="#contact" class="nav-contact">
+                Let's Talk <span>↗</span>
+            </a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+                    <span class="availability-dot"></span>
+                    <span>BUILDING THE FUTURE, ONE LINE AT A TIME</span>
+                </div>
+
+                <p class="hero-eyebrow">
+                    HELLO, WORLD! I'M
+                </p>
+
+                <h1 class="hero-title">
+                    HAMMED
+                    <span class="hero-lastname">ABDULSALAM<span>.</span></span>
+                </h1>
+
+                <div class="hero-role">
+                    <span class="role-prefix">I BUILD</span>
+
+                    <span class="typing-text" id="typingText">
+                        digital experiences
+                    </span>
+
+                    <span class="typing-cursor"></span>
+                </div>
+
+                <p class="hero-description">
+                    I'm <strong>Zyham</strong>, an aspiring backend developer
+                    passionate about building reliable web applications,
+                    designing APIs, working with databases, and turning
+                    ideas into useful digital products.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#projects" class="button button-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="button button-secondary">
+                        Discover My Story <span>↓</span>
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <a
+                        href="https://github.com/hepxno064-gif"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub <span>↗</span>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn <span>↗</span>
+                    </a>
+
+                    <a href="#contact">
+                        Contact <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROFILE CARD -->
+            <div class="hero-visual reveal">
+
+                <div class="visual-topline">
+                    <span>01 / THE DEVELOPER</span>
+                    <span class="live-indicator">● ONLINE</span>
+                </div>
+
+                <div class="profile-frame">
+
+                    <div class="profile-glow"></div>
+
+                    <img
+                        src="Profile.jpg"
+                        alt="Portrait of Zyham"
+                        class="profile-image"
+                        id="profileImage"
+                    >
+
+                    <div class="profile-image-fallback" id="profileFallback">
+                        ZY<span>H</span>AM
+                    </div>
+
+                    <div class="profile-overlay">
+
+                        <div>
+                            <p class="profile-caption">DEVELOPER PROFILE</p>
+                            <h2>Hammed "Zyham"</h2>
+                            <p>Backend Development · Web Technologies</p>
+                        </div>
+
+                        <span class="profile-number">01</span>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-card floating-card-top">
+                    <span class="floating-icon">{ }</span>
+                    <div>
+                        <strong>Clean code</strong>
+                        <small>Built with purpose</small>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-bottom">
+                    <span class="floating-icon orange-icon">↗</span>
+                    <div>
+                        <strong>Always learning</strong>
+                        <small>Progress over perfection</small>
+                    </div>
+                </div>
+
+                <div class="visual-footer">
+                    <span>BASED IN NIGERIA</span>
+                    <span>AVAILABLE FOR OPPORTUNITIES</span>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span class="scroll-line"></span>
+                SCROLL TO EXPLORE
+            </a>
+
+        </section>
+
+
+        <!-- TECHNOLOGY STRIP -->
+        <section class="tech-strip">
+
+            <div class="tech-strip-label">MY TECH INTERESTS</div>
+
+            <div class="tech-list">
+                <span>PYTHON</span>
+                <span class="tech-separator">✳</span>
+
+                <span>DJANGO</span>
+                <span class="tech-separator">✳</span>
+
+                <span>REST APIS</span>
+                <span class="tech-separator">✳</span>
+
+                <span>DATABASES</span>
+                <span class="tech-separator">✳</span>
+
+                <span>JAVASCRIPT</span>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading reveal">
+
+                <div class="section-label">
+                    <span>01</span> / GET TO KNOW ME
+                </div>
+
+                <h2 class="section-title">
+                    Not just writing code.
+                    <span>Building with intention.</span>
+                </h2>
+
+                <p class="section-intro">
+                    Every developer has a beginning. This is mine,
+                    and I'm building toward something meaningful.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-main glass-card reveal">
+
+                    <span class="card-index">A LITTLE ABOUT ME</span>
+
+                    <h3>
+                        I believe great software starts
+                        <span>behind the scenes.</span>
+                    </h3>
+
+                    <p>
+                        My name is Hammed Abdulsalam Ajibola, and I go by
+                        Zyham. I'm interested in backend development and
+                        the systems that make web applications work.
+                    </p>
+
+                    <p>
+                        I'm developing my skills in Python, Django,
+                        application logic, APIs, database management,
+                        and web technologies. I enjoy learning how
+                        different parts of an application communicate
+                        and how to build solutions that are useful,
+                        maintainable, and reliable.
+                    </p>
+
+                    <p>
+                        My goal is to grow into a capable backend
+                        developer, build real-world projects, and
+                        contribute to meaningful software.
+                    </p>
+
+                    <div class="about-signature">
+                        <span class="signature-mark">Z.</span>
+
+                        <div>
+                            <strong>Hammed Abdulsalam</strong>
+                            <small>Known online as Zyham</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="about-side reveal">
+
+                    <div class="mini-card glass-card">
+
+                        <span class="mini-icon">⌘</span>
+
+                        <h3>Problem solving</h3>
+
+                        <p>
+                            Learning to break complex problems into
+                            smaller, manageable solutions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="mini-card glass-card">
+
+                        <span class="mini-icon">⌁</span>
+
+                        <h3>Continuous growth</h3>
+
+                        <p>
+                            Improving through practice, experimentation,
+                            feedback, and real projects.
+                        </p>
+
+                    </div>
+
+
+                    <div class="mini-card glass-card">
+
+                        <span class="mini-icon">⌘</span>
+
+                        <h3>Building for people</h3>
+
+                        <p>
+                            Creating technology with usability,
+                            reliability, and real needs in mind.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading reveal">
+
+                <div class="section-label">
+                    <span>02</span> / THE TOOLKIT
+                </div>
+
+                <h2 class="section-title">
+                    Skills I'm building.
+                    <span>Systems I'm exploring.</span>
+                </h2>
+
+                <p class="section-intro">
+                    My learning focuses on the technologies and
+                    concepts behind reliable web applications.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <article class="skill-card glass-card reveal">
+
+                    <div class="skill-card-top">
+                        <span class="skill-icon">Py</span>
+                        <span class="skill-category">01 / LANGUAGE</span>
+                    </div>
+
+                    <h3>Python</h3>
+
+                    <p>
+                        Learning programming fundamentals, functions,
+                        data structures, and application logic.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Logic</span>
+                        <span>Functions</span>
+                        <span>Data structures</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card glass-card reveal">
+
+                    <div class="skill-card-top">
+                        <span class="skill-icon">Dj</span>
+                        <span class="skill-category">02 / FRAMEWORK</span>
+                    </div>
+
+                    <h3>Django</h3>
+
+                    <p>
+                        Exploring how Python powers web applications,
+                        models, views, routing, and administration.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Models</span>
+                        <span>Views</span>
+                        <span>Routing</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card glass-card reveal">
+
+                    <div class="skill-card-top">
+                        <span class="skill-icon">{ }</span>
+                        <span class="skill-category">03 / WEB</span>
+                    </div>
+
+                    <h3>HTML, CSS & JS</h3>
+
+                    <p>
+                        Building responsive interfaces and learning
+                        how frontend applications interact with users.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card glass-card reveal">
+
+                    <div class="skill-card-top">
+                        <span class="skill-icon">DB</span>
+                        <span class="skill-category">04 / DATA</span>
+                    </div>
+
+                    <h3>Databases</h3>
+
+                    <p>
+                        Learning data modelling, relationships,
+                        queries, and persistent application data.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>SQL concepts</span>
+                        <span>Models</span>
+                        <span>Relationships</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card glass-card reveal">
+
+                    <div class="skill-card-top">
+                        <span class="skill-icon">API</span>
+                        <span class="skill-category">05 / INTEGRATION</span>
+                    </div>
+
+                    <h3>APIs</h3>
+
+                    <p>
+                        Exploring HTTP requests, responses, JSON,
+                        and communication between applications.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>HTTP</span>
+                        <span>JSON</span>
+                        <span>REST concepts</span>
+                    </div>
+
+                </article>
+
+
+                <article class="skill-card glass-card reveal">
+
+                    <div class="skill-card-top">
+                        <span class="skill-icon">Git</span>
+                        <span class="skill-category">06 / WORKFLOW</span>
+                    </div>
+
+                    <h3>Git & GitHub</h3>
+
+                    <p>
+                        Learning to organise code, track changes,
+                        maintain repositories, and publish projects.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Deployment</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="skills-note reveal">
+                <span class="note-symbol">i</span>
+
+                <p>
+                    This section represents my learning and development
+                    focus. I'll update it as I gain more experience
+                    and complete more projects.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS SECTION -->
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading reveal">
+
+                <div class="section-label">
+                    <span>03</span> / SELECTED WORK
+                </div>
+
+                <h2 class="section-title">
+                    My work.
+                    <span>My progress.</span>
+                </h2>
+
+                <p class="section-intro">
+                    Explore my earlier portfolio websites and see
+                    how my approach to web development has evolved.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature glass-card reveal">
+
+                <div class="project-feature-content">
+
+                    <span class="project-status">
+                        <span></span> FEATURED PROJECT
+                    </span>
+
+                    <p class="project-overline">PORTFOLIO / CURRENT</p>
+
+                    <h3>
+                        Building the next
+                        <span>version of Zyham.</span>
+                    </h3>
+
+                    <p>
+                        This portfolio is designed to bring together
+                        my developer identity, learning journey,
+                        technical interests, and previous website
+                        experiments in one professional experience.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive design</span>
+                    </div>
+
+                    <a href="#journey" class="text-link">
+                        Explore my evolution <span>↗</span>
+                    </a>
+
+                </div>
+
+
+                <div class="code-window">
+
+                    <div class="code-window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span>zyham.js</span>
+                    </div>
+
+                    <div class="code-content">
+<pre><span class="code-purple">const</span> developer = {
+  <span class="code-blue">name</span>: <span class="code-green">"Zyham"</span>,
+  <span class="code-blue">focus</span>: <span class="code-green">"Backend Development"</span>,
+  <span class="code-blue">mindset</span>: <span class="code-green">"Always learning"</span>,
+  <span class="code-blue">mission</span>: <span class="code-green">"Build useful things"</span>
+};
+
+<span class="code-purple">function</span> <span class="code-yellow">keepBuilding</span>() {
+  <span class="code-purple">return</span> developer.mission;
+}</pre>
+                    </div>
+
+                    <div class="code-window-footer">
+                        <span>● PERSONAL PROJECT</span>
+                        <span>VERSION: CURRENT</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PREVIOUS PORTFOLIO VERSIONS -->
+            <div class="projects-subheading reveal">
+
+                <div>
+                    <span class="project-overline">THE EVOLUTION</span>
+                    <h3>Where it started.</h3>
+                </div>
+
+                <p>
+                    Three earlier versions. One continuous journey.
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-grid">
+
+
+                <!-- VERSION 1 -->
+                <article class="portfolio-card glass-card reveal">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="https://hepxno064-gif.github.io/zyham-portfolio-/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Open first Zyham portfolio"
+                    >
+
+                        <div class="portfolio-image-wrap">
+
+                            <img
+                                src="Profile1.jpg"
+                                alt="Screenshot of Zyham portfolio version one"
+                                class="portfolio-image"
+                                loading="lazy"
+                            >
+
+                            <span class="image-version">V.01</span>
+
+                            <span class="image-open">↗</span>
+
+                        </div>
+
+                    </a>
+
+                    <div class="portfolio-card-body">
+
+                        <div class="portfolio-card-top">
+                            <span class="version-label">FIRST ITERATION</span>
+                            <span class="version-dot"></span>
+                        </div>
+
+                        <h3>The beginning.</h3>
+
+                        <p>
+                            My first portfolio iteration and an early
+                            step in presenting my work online.
+                        </p>
+
+                        <div class="portfolio-card-footer">
+
+                            <span>VERSION 01</span>
+
+                            <a
+                                href="https://hepxno064-gif.github.io/zyham-portfolio-/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visit website ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VERSION 2 -->
+                <article class="portfolio-card glass-card reveal">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="https://hepxno064-gif.github.io/zyham-portfolio/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Open second Zyham portfolio"
+                    >
+
+                        <div class="portfolio-image-wrap">
+
+                            <img
+                                src="Profile2.jpg"
+                                alt="Screenshot of Zyham portfolio version two"
+                                class="portfolio-image"
+                                loading="lazy"
+                            >
+
+                            <span class="image-version">V.02</span>
+
+                            <span class="image-open">↗</span>
+
+                        </div>
+
+                    </a>
+
+                    <div class="portfolio-card-body">
+
+                        <div class="portfolio-card-top">
+                            <span class="version-label">SECOND ITERATION</span>
+                            <span class="version-dot"></span>
+                        </div>
+
+                        <h3>Getting better.</h3>
+
+                        <p>
+                            Another step in refining the design,
+                            presentation, and structure of my portfolio.
+                        </p>
+
+                        <div class="portfolio-card-footer">
+
+                            <span>VERSION 02</span>
+
+                            <a
+                                href="https://hepxno064-gif.github.io/zyham-portfolio/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visit website ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VERSION 3 -->
+                <article class="portfolio-card glass-card reveal">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="https://hepxno064-gif.github.io/zyham-portfolio2/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Open third Zyham portfolio"
+                    >
+
+                        <div class="portfolio-image-wrap">
+
+                            <img
+                                src="Profile3.jpg"
+                                alt="Screenshot of Zyham portfolio version three"
+                                class="portfolio-image"
+                                loading="lazy"
+                            >
+
+                            <span class="image-version">V.03</span>
+
+                            <span class="image-open">↗</span>
+
+                        </div>
+
+                    </a>
+
+                    <div class="portfolio-card-body">
+
+                        <div class="portfolio-card-top">
+                            <span class="version-label">THIRD ITERATION</span>
+                            <span class="version-dot"></span>
+                        </div>
+
+                        <h3>Moving forward.</h3>
+
+                        <p>
+                            A later portfolio version showing another
+                            stage of my web development journey.
+                        </p>
+
+                        <div class="portfolio-card-footer">
+
+                            <span>VERSION 03</span>
+
+                            <a
+                                href="https://hepxno064-gif.github.io/zyham-portfolio2/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Visit website ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="projects-note reveal">
+                <span>+</span>
+
+                <p>
+                    More projects will be added as I build and complete
+                    new applications.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- JOURNEY SECTION -->
+        <section class="section journey-section" id="journey">
+
+            <div class="section-heading reveal">
+
+                <div class="section-label">
+                    <span>04</span> / THE JOURNEY
+                </div>
+
+                <h2 class="section-title">
+                    Progress isn't a destination.
+                    <span>It's a process.</span>
+                </h2>
+
+                <p class="section-intro">
+                    Every version represents an opportunity to learn,
+                    improve, and build something better.
+                </p>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <article class="timeline-item reveal">
+
+                    <div class="timeline-marker">
+                        <span>01</span>
+                    </div>
+
+                    <div class="timeline-card glass-card">
+
+                        <span class="timeline-label">THE BEGINNING</span>
+
+                        <h3>Taking the first step.</h3>
+
+                        <p>
+                            Started exploring how websites are built
+                            and how to present myself online.
+                        </p>
+
+                        <div class="timeline-tags">
+                            <span>Exploration</span>
+                            <span>Learning</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item reveal">
+
+                    <div class="timeline-marker">
+                        <span>02</span>
+                    </div>
+
+                    <div class="timeline-card glass-card">
+
+                        <span class="timeline-label">THE EXPERIMENTS</span>
+
+                        <h3>Learning by building.</h3>
+
+                        <p>
+                            Created new portfolio versions and
+                            continued exploring website structure,
+                            styling, and interactive features.
+                        </p>
+
+                        <div class="timeline-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item reveal">
+
+                    <div class="timeline-marker timeline-marker-current">
+                        <span>03</span>
+                    </div>
+
+                    <div class="timeline-card glass-card timeline-current">
+
+                        <span class="timeline-label">CURRENT FOCUS</span>
+
+                        <h3>Moving toward backend development.</h3>
+
+                        <p>
+                            Focusing on programming, Python, Django,
+                            databases, APIs, and building applications
+                            that solve real problems.
+                        </p>
+
+                        <div class="timeline-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Backend concepts</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item reveal">
+
+                    <div class="timeline-marker timeline-marker-future">
+                        <span>04</span>
+                    </div>
+
+                    <div class="timeline-card glass-card">
+
+                        <span class="timeline-label">THE NEXT CHAPTER</span>
+
+                        <h3>Building real-world solutions.</h3>
+
+                        <p>
+                            My next goal is to strengthen my skills,
+                            complete more substantial projects,
+                            improve my code quality, and contribute
+                            to useful software.
+                        </p>
+
+                        <div class="timeline-tags">
+                            <span>Practice</span>
+                            <span>Growth</span>
+                            <span>Real projects</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- DEVELOPER PHILOSOPHY -->
+        <section class="section philosophy-section">
+
+            <div class="philosophy-card reveal">
+
+                <span class="philosophy-mark">“</span>
+
+                <p class="philosophy-overline">
+                    THE MINDSET
+                </p>
+
+                <h2>
+                    Don't just make it work.
+                    <span>Understand why it works.</span>
+                </h2>
+
+                <p class="philosophy-description">
+                    My goal is not simply to write more code.
+                    It's to understand the problems I solve,
+                    keep improving my approach, and build
+                    software with purpose.
+                </p>
+
+                <div class="philosophy-signature">
+                    — ZYHAM
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-grid">
+
+                <div class="contact-content reveal">
+
+                    <div class="section-label">
+                        <span>05</span> / LET'S CONNECT
+                    </div>
+
+                    <h2 class="contact-title">
+                        Have an idea?
+                        <span>Let's talk.</span>
+                    </h2>
+
+                    <p class="contact-description">
+                        I'm interested in learning, collaborating,
+                        connecting with other developers, and exploring
+                        opportunities to grow through real projects.
+                    </p>
+
+                    <a
+                        href="mailto:abdulsalamhammed064@gmail.com?subject=Hello%20Zyham"
+                        class="contact-email"
+                    >
+                        <span>abdulsalamhammed064@gmail.com</span>
+                        <span>↗</span>
+                    </a>
+
+                    <button
+                        class="copy-email-button"
+                        id="copyEmail"
+                        type="button"
+                    >
+                        Copy email address
+                    </button>
+
+                </div>
+
+
+                <div class="contact-panel glass-card reveal">
+
+                    <div class="contact-panel-top">
+                        <span>CONNECTION DETAILS</span>
+                        <span class="contact-panel-icon">↗</span>
+                    </div>
+
+                    <h3>Find me online.</h3>
+
+                    <p>
+                        Connect with me and follow my development journey.
+                    </p>
+
+
+                    <a
+                        class="contact-link"
+                        href="https://github.com/hepxno064-gif"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-link-icon">GH</span>
+
+                        <span class="contact-link-info">
+                            <strong>GitHub</strong>
+                            <small>My code and repositories</small>
+                        </span>
+
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+
+                    <a
+                        class="contact-link"
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-link-icon">in</span>
+
+                        <span class="contact-link-info">
+                            <strong>LinkedIn</strong>
+                            <small>Professional networking</small>
+                        </span>
+
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+
+                    <a
+                        class="contact-link"
+                        href="https://www.instagram.com/zyham064/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-link-icon">IG</span>
+
+                        <span class="contact-link-info">
+                            <strong>Instagram</strong>
+                            <small>@zyham064</small>
+                        </span>
+
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+
+                    <a
+                        class="contact-link"
+                        href="https://www.tiktok.com/@_aji_bola8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-link-icon">TK</span>
+
+                        <span class="contact-link-info">
+                            <strong>TikTok</strong>
+                            <small>@_aji_bola8</small>
+                        </span>
+
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL CALL TO ACTION -->
+        <section class="final-cta section reveal">
+
+            <div class="final-cta-inner">
+
+                <span class="final-cta-label">
+                    THE JOURNEY CONTINUES
+                </span>
+
+                <h2>
+                    Still learning.
+                    <span>Still building.</span>
+                </h2>
+
+                <p>
+                    Every line of code is another opportunity
+                    to become better than yesterday.
+                </p>
+
+                <a href="#home" class="button button-primary">
+                    Back to the beginning <span>↑</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="brand footer-brand">
+            ZY<span>H</span>AM<span class="brand-dot">.</span>
+        </a>
+
+        <p>
+            Designed and built with intention.
+            <span>© <span id="currentYear"></span> Zyham.</span>
+        </p>
+
+        <a href="#home" class="back-to-top">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+
+    <!-- TOAST NOTIFICATIONS -->
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+
+</body>
+</html>
